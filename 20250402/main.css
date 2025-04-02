@@ -1,0 +1,18 @@
+#test{
+    color:gold;
+    font-size: 20px;
+    opacity: 0.5;
+}
+.red{
+    color: red;
+    font-size: 25px;
+}
+.blue{
+    color: blue;
+}
+#test .second_div{
+    color: blueviolet;
+}
+#test img{
+    opacity: 0.4;
+}
