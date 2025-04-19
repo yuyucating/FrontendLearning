@@ -4,8 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body{
+            color: yellowgreen; font-size: 25px;
+        }
+        #a1{
+            color:blue;
+        }#a2{
+            color: aquamarine;
+        }.b1{
+            color: darkmagenta;
+        }.b2{
+            color:blueviolet!important;
+        }.c1{
+            color: black;
+        }
+
+    </style>
 </head>
 <body>
-    
+    <div id="a1">我的 id 是 a1</div>
+    <div id="a2" class="b2">我的 id 是 a2, class 是 b2</div>
+    <div class="b1">
+        我的 class 是 b1
+        <div class="c1">
+            我是 class b1 裡面的 class c1
+        </div>
+    </div>
+    <div class="b2">我的 class 是 b2</div>
+    <div class="b2" style="color:darkcyan">我是有 style 的 class b2</div>
+    <div>我是一個單純的 div</div>
+    <hr>
+    <span class="b1">
+        我的 class 是 b1
+        <span class="c1">我是 class b1 裡面的 class c1</span>
+    </span>
+    <span class="b2">我的 class 是 b2</span>
+    <div>
+        <span>123</span><span>456</span>
+    </div>
+    <p>今天是<span style="color:chocolate">星期一</span>，心情很美麗</p>
 </body>
 </html>
